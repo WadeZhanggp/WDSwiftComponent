@@ -15,6 +15,8 @@
 		39CA00831FB172BD00F66316 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CA00821FB172BD00F66316 /* RxCocoa.framework */; };
 		39CA00851FB172C600F66316 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CA00841FB172C600F66316 /* Kingfisher.framework */; };
 		39CA00871FB172F400F66316 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CA00861FB172F400F66316 /* RxSwift.framework */; };
+		39CA008C1FB1786E00F66316 /* WDTimeCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA008B1FB1786E00F66316 /* WDTimeCalculate.swift */; };
+		39CA008E1FB178EF00F66316 /* WDImageGifPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA008D1FB178EF00F66316 /* WDImageGifPlay.swift */; };
 		39D409D71FA9C42200EDE083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D409D61FA9C42200EDE083 /* AppDelegate.swift */; };
 		39D409D91FA9C42200EDE083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D409D81FA9C42200EDE083 /* ViewController.swift */; };
 		39D409DC1FA9C42200EDE083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D409DA1FA9C42200EDE083 /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		39CA00821FB172BD00F66316 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		39CA00841FB172C600F66316 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		39CA00861FB172F400F66316 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		39CA008B1FB1786E00F66316 /* WDTimeCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDTimeCalculate.swift; sourceTree = "<group>"; };
+		39CA008D1FB178EF00F66316 /* WDImageGifPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WDImageGifPlay.swift; sourceTree = "<group>"; };
 		39D409D31FA9C42200EDE083 /* WDSwiftComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDSwiftComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D409D61FA9C42200EDE083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39D409D81FA9C42200EDE083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,8 +127,24 @@
 		39CA008A1FB1775400F66316 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				39CA008B1FB1786E00F66316 /* WDTimeCalculate.swift */,
+				39CA008D1FB178EF00F66316 /* WDImageGifPlay.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		39CA008F1FB17B0100F66316 /* RxAddtion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxAddtion;
+			sourceTree = "<group>";
+		};
+		39CA00901FB17B0100F66316 /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKitExtension;
 			sourceTree = "<group>";
 		};
 		39D409CA1FA9C42200EDE083 = {
@@ -152,6 +172,8 @@
 		39D409D51FA9C42200EDE083 /* WDSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
+				39CA008F1FB17B0100F66316 /* RxAddtion */,
+				39CA00901FB17B0100F66316 /* UIKitExtension */,
 				39CA008A1FB1775400F66316 /* Utility */,
 				39CA00891FB176D700F66316 /* Component */,
 				39D409E21FA9C42200EDE083 /* Info.plist */,
@@ -349,7 +371,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39D409D91FA9C42200EDE083 /* ViewController.swift in Sources */,
+				39CA008E1FB178EF00F66316 /* WDImageGifPlay.swift in Sources */,
 				39D409D71FA9C42200EDE083 /* AppDelegate.swift in Sources */,
+				39CA008C1FB1786E00F66316 /* WDTimeCalculate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
