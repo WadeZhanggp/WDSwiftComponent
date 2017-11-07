@@ -1,0 +1,6 @@
+github "SnapKit/SnapKit" ~> 3.0.0
+github "Alamofire/Alamofire" ~> 4.4
+github "AFNetworking/AFNetworking" ~> 3.0
+github "SwiftyJSON/SwiftyJSON"
+github "ReactiveX/RxSwift" ~> 3.0
+github "onevcat/Kingfisher" ~> 3.0
