@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AUTimeCalculate: NSObject {
+class WDTimeCalculate: NSObject {
     
     //消息时间或者直播时间
     class func timeTransForm(time: Double, isMessage: Bool) -> String {

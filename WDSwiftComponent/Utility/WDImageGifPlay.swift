@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AUImageGifPlay: NSObject {
+class WDImageGifPlay: NSObject {
     
     class func showGif(gifView: UIImageView , gifImageName: String) {
         guard let path = Bundle.main.path(forResource: gifImageName, ofType: "gif"),

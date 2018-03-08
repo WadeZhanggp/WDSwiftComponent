@@ -48,6 +48,13 @@
 		3903A0CA1FB0117600282708 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		3903A0CC1FB0117900282708 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		3903A0CE1FB0117F00282708 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		395A1F1A1FB2C9DB00E064CE /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		395A1F1B1FB2C9E800E064CE /* KCBlockTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCBlockTableView.swift; sourceTree = "<group>"; };
+		395A1F1C1FB2CA5300E064CE /* KCTextController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTextController.swift; sourceTree = "<group>"; };
+		395A1F1D1FB2CA5300E064CE /* KCPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPageControl.swift; sourceTree = "<group>"; };
+		395A1F1E1FB2CA5400E064CE /* KCSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCSimpleViewController.swift; sourceTree = "<group>"; };
+		395A1F1F1FB2CA5400E064CE /* KCWebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCWebController.swift; sourceTree = "<group>"; };
+		395A1F201FB2CA5400E064CE /* KCBannersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCBannersView.swift; sourceTree = "<group>"; };
 		39CA00801FB172B900F66316 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		39CA00821FB172BD00F66316 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		39CA00841FB172C600F66316 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
@@ -117,6 +124,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		395A1F191FB2C9CE00E064CE /* KCComponent */ = {
+			isa = PBXGroup;
+			children = (
+				395A1F1A1FB2C9DB00E064CE /* PhotoPicker.swift */,
+				395A1F1B1FB2C9E800E064CE /* KCBlockTableView.swift */,
+				395A1F201FB2CA5400E064CE /* KCBannersView.swift */,
+				395A1F1D1FB2CA5300E064CE /* KCPageControl.swift */,
+				395A1F1E1FB2CA5400E064CE /* KCSimpleViewController.swift */,
+				395A1F1C1FB2CA5300E064CE /* KCTextController.swift */,
+				395A1F1F1FB2CA5400E064CE /* KCWebController.swift */,
+			);
+			path = KCComponent;
+			sourceTree = "<group>";
+		};
 		39CA00891FB176D700F66316 /* Component */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +193,7 @@
 		39D409D51FA9C42200EDE083 /* WDSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
+				395A1F191FB2C9CE00E064CE /* KCComponent */,
 				39CA008F1FB17B0100F66316 /* RxAddtion */,
 				39CA00901FB17B0100F66316 /* UIKitExtension */,
 				39CA008A1FB1775400F66316 /* Utility */,
